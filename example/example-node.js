@@ -4,7 +4,7 @@ const fs = require('fs');
 // const HTMLtoDOCX = require('html-to-docx');
 const HTMLtoDOCX = require('../dist/html-to-docx.umd');
 
-const filePath = './example.docx';
+const filePath = './example-node.docx';
 
 const htmlString = `<!DOCTYPE html>
 <html lang="en">
@@ -1896,21 +1896,21 @@ const htmlString = `<!DOCTYPE html>
 </html>`;
 
 (async () => {
-    const fileBuffer = await HTMLtoDOCX(htmlString, null, {
-        table: {
-            row: { cantSplit: true }, 
-            addSpacingAfter: true
-        },
-        footer: true,
-        pageNumber: true,
-        preprocessing: { skipHTMLMinify: false }
-    });
+  const fileBuffer = await HTMLtoDOCX(htmlString, null, {
+    table: {
+      row: { cantSplit: true },
+      addSpacingAfter: true,
+    },
+    footer: true,
+    pageNumber: true,
+    preprocessing: { skipHTMLMinify: false },
+  });
 
-    fs.writeFile(filePath, fileBuffer, (error) => {
-        if (error) {
-            console.log('Docx file creation failed');
-            return;
-        }
-        console.log('Docx file created successfully');
-    });
+  fs.writeFile(filePath, fileBuffer, (error) => {
+    if (error) {
+      console.log('Docx file creation failed');
+      return;
+    }
+    console.log('Docx file created successfully');
+  });
 })();
