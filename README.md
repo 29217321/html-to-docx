@@ -449,9 +449,34 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to branch new branches off of develop for contribution.
 
+---
+
 ## Support
-**Proudly Sponsored by TurboDocx** 
-[!["Proudly Sponsored by TurboDocx"](https://image.typedream.com/cdn-cgi/image/width=1920,format=auto,fit=scale-down,quality=100/https://api.typedream.com/v0/document/public/de39171b-a5c9-49c5-bd9c-c2dfd5d632a2/2PZxyx12UwC5HrIA3p6lo16fCms_Group_16_1_.png)](https://www.TurboDocx.com)
+
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://docs.turbodocx.com">
+<img src="https://cdn-icons-png.flaticon.com/512/2991/2991112.png" width="40"/><br/>
+<strong>Documentation</strong>
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://discord.gg/NYKwz4BcpX">
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" width="40"/><br/>
+<strong>Discord</strong>
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/TurboDocx/html-to-docx/issues">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" width="40"/><br/>
+<strong>GitHub Issues</strong>
+</a>
+</td>
+</tr>
+</table>
+
+---
 
 ## License
 
@@ -492,6 +517,10 @@ Made with [contrib.rocks](https://contrib.rocks).
 ---
 
 <div align="center">
+
+**[Website](https://www.turbodocx.com)** • **[Documentation](https://docs.turbodocx.com)** • **[Discord](https://discord.gg/NYKwz4BcpX)** • **[Twitter/X](https://twitter.com/TurboDocx)**
+
+<sub>Built with ❤️ by the TurboDocx team</sub>
 
 [![TurboDocx](./footer.png)](https://www.turbodocx.com)
 
