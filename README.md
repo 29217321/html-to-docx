@@ -19,10 +19,10 @@ Based on the original work and assisted by the original contributors of [private
 
 | Package | Links | Description |
 |---------|-------|-------------|
+| @turbodocx/sdk | [![npm](https://img.shields.io/npm/v/@turbodocx/sdk?logo=npm&logoColor=white&label=npm)](https://www.npmjs.com/package/@turbodocx/sdk) [![GitHub](https://img.shields.io/github/stars/turbodocx/sdk?style=social)](https://github.com/turbodocx/sdk) | Official JavaScript/TypeScript SDK for document generation & digital signatures |
+| turbodocx-sdk | [![PyPI](https://img.shields.io/pypi/v/turbodocx-sdk?logo=python&logoColor=white&label=pypi)](https://pypi.org/project/turbodocx-sdk/) [![GitHub](https://img.shields.io/github/stars/turbodocx/sdk?style=social)](https://github.com/turbodocx/sdk) | Official Python SDK for document generation & digital signatures |
+| turbodocx-sdk | [![Go](https://img.shields.io/github/go-mod/go-version/turbodocx/sdk?logo=go&logoColor=white&label=go)](https://github.com/turbodocx/sdk) [![GitHub](https://img.shields.io/github/stars/turbodocx/sdk?style=social)](https://github.com/turbodocx/sdk) | Official Go SDK for document generation & digital signatures |
 | n8n-nodes-turbodocx | [![npm](https://img.shields.io/npm/v/@turbodocx/n8n-nodes-turbodocx?logo=npm&logoColor=white&label=npm)](https://www.npmjs.com/package/@turbodocx/n8n-nodes-turbodocx) [![GitHub](https://img.shields.io/github/stars/turbodocx/n8n-nodes-turbodocx?style=social)](https://github.com/turbodocx/n8n-nodes-turbodocx) | n8n community node for TurboDocx API & TurboSign |
-<!-- | turbodocx | [![npm](https://img.shields.io/npm/v/turbodocx?logo=npm&logoColor=white&label=npm)](https://www.npmjs.com/package/turbodocx) | TurboDocx Node.js SDK | -->
-<!-- | turbodocx-python | [![PyPI](https://img.shields.io/pypi/v/turbodocx?logo=python&logoColor=white&label=pypi)](https://pypi.org/project/turbodocx/) | TurboDocx Python SDK | -->
-<!-- | turbodocx-ruby | [![Gem](https://img.shields.io/gem/v/turbodocx?logo=ruby&logoColor=white&label=gem)](https://rubygems.org/gems/turbodocx) | TurboDocx Ruby SDK | -->
 
 ## Why @turbodocx/html-to-docx?
 
