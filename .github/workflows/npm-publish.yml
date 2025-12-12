@@ -28,6 +28,9 @@ jobs:
   publish-npm:
     needs: build  # Wait for tests to pass before publishing
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write  # Required for npm provenance
     steps:
       - uses: actions/checkout@v4
 
@@ -42,7 +45,7 @@ jobs:
       # Build the production bundle (bundles modules, minifies code with terser)
       - run: npm run build:prod
 
-      # Publish to npm with public access (scoped packages are private by default)
-      - run: npm publish --access public
+      # Publish to npm with public access and provenance attestation
+      - run: npm publish --access public --provenance
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}  # Use npm token from GitHub secrets
